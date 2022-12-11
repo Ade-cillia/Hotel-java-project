@@ -1,0 +1,16 @@
+## Développer l’application de gestion de l’hôtel en java (20 points)
+
+- Respecter le cahier des charges
+- Avoir une application qui fonctionne : des tests automatiques (main) devront permettre de
+vérifier le bon fonctionnement de l’application, avec un jeu de données
+- Respecter les bonnes pratiques de développement (nommages, commentaires, conception, …)
+
+## Intégrer les éléments de la POO (30 points)
+- Surcharger une méthode
+- Créer deux constructeurs
+- Override toString
+- Créer un héritage entre deux classes avec extends et implements
+- Implémenter le pattern singleton
+- Utiliser l’encapsulation
+
+**tous les éléments sont succedés du symbole "¤" dans les commentaires afin de pouvoir voir plus facilement où ils sont placé dans les tests avec un "<kbd>Ctrl</kbd>+<kbd>f</kbd>" -> ¤**
