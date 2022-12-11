@@ -30,6 +30,7 @@ public class Room implements RoomInterface {
   /* (non-Javadoc)
    * @see src.room.RoomInterface#getRoomName()
    */
+  @Override
   public String getRoomName() {
     return this.m_roomName;
   }
@@ -37,6 +38,7 @@ public class Room implements RoomInterface {
   /* (non-Javadoc)
    * @see src.room.RoomInterface#getIsClean()
    */
+  @Override
   public boolean getIsClean() {
     return this.m_isClean;
   }
@@ -44,6 +46,7 @@ public class Room implements RoomInterface {
   /* (non-Javadoc)
    * @see src.room.RoomInterface#getIsReserved()
    */
+  @Override
   public boolean getIsReserved() {
     return this.m_isReserved;
   }

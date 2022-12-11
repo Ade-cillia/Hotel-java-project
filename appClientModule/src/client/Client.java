@@ -40,6 +40,7 @@ public class Client implements ClientInterface {
   /* (non-Javadoc)
    * @see src.client.ClientInterface#getLastName()
    */
+  @Override
   public String getLastName() {
     return this.m_lastName;
   }
@@ -49,6 +50,7 @@ public class Client implements ClientInterface {
   /* (non-Javadoc)
    * @see src.client.ClientInterface#getFirstName()
    */
+  @Override
   public String getFirstName() {
     return this.m_firstName;
   }
